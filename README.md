@@ -11,13 +11,13 @@ The API receives the player's choice and returns the computer's choice and the g
 - CORS enabled (`@CrossOrigin(origins="*")`) to allow frontend apps (e.g., Angular) to call the API
 - Runs on **port 8081**
 
-## 🛠 Tech Stack
+## Tech Stack
 - Java
 - Spring Boot
 - Spring Web (REST Controller)
 - Maven
 
-## 📌 API Endpoint
+## API Endpoint
 
 ### `POST /play`
 **Request Body**

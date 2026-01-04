@@ -72,7 +72,7 @@ http://localhost:8081
 ### Test the API
 ## Using cURL
 ```bash
-curl -X POST http://localhost:8081/play \
+ curl -X POST http://localhost:8081/play \
   -H "Content-Type: application/json" \
   -d "{\"playerChoice\":\"pierre\"}"
 ```
@@ -83,15 +83,6 @@ Body (raw JSON):
 ```bash
 { "playerChoice": "feuille" }
 ```
-
-### Project Structure
-src/main/java/com/example/pfcgame
-├── PfcgameApplication.java
-├── controller/
-│   └── GameController.java
-└── model/
-    ├── GameRequest.java
-    └── GameResponse.java
 
 ### Configuration
 In src/main/resources/application.properties:
